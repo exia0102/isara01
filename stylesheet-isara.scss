@@ -1,0 +1,827 @@
+@import "practice02";
+@media screen and (max-width: 1190px) {
+  .heading {
+    @include heading-max1190;
+    h1 {
+      @include heading-max1190-h1;
+    }
+    h2 {
+      @include heading-max1190-h2;
+    }
+  }
+  /*top*/
+  .top-wrapper {
+      h2 {
+        font-size: 24px;
+      }
+      p {
+        font-size: 16px;
+      }
+  }
+  /*contact*/
+  .contact-wrapper {
+    h1 {
+      font-size: 16px;
+    }
+    h2 {
+      font-size: 14px;
+    }
+    p {
+      font-size: 18px;
+    }
+  }
+  .request-btn {
+    width: 80%;
+    p {
+      font-size: 18px;
+    }
+  }
+  /*engineer*/
+  .engineer-wrapper {
+    p {
+      font-size: 16px;
+    }
+  }
+  /*engineer-skill*/
+  .engineer-skill-wrapper {
+    h2 {
+      font-size: 16px;
+    }
+  }
+  .skills {
+    flex-wrap: wrap;
+  }
+  .skill {
+    width: 25%;
+  }
+  /*step*/
+  .step-heading {
+    h1 {
+      font-size: 24px;
+    }
+    h2 {
+      font-size: 16px;
+    }
+  }
+  .steps {
+    flex-direction: column;
+    align-items: center;
+  }
+  /*blue*/
+  .blue-wrapper {
+    p {
+      font-size: 16px;
+    }
+    h3 {
+      font-size: 16px;
+    }
+  }
+  /*learn*/
+  .learn-wrapper {
+    h1 {
+      font-size: 24px;
+    }
+    h2 {
+      font-size: 16px;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+  .learns {
+    img {
+      width: 150px;;
+    }
+  }
+  /*merit*/
+  .merits {
+    flex-direction: column;
+    align-items: center;
+    }
+  .text-contents {
+    width: 70%;
+    h3 {
+      text-align: center;
+      font-size: 16px;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+  .merit {
+    width: 100%;
+      img {
+        width: 300px;
+        margin: 0 auto;
+        display: block;
+      }
+  }
+  .support {
+    h1 {
+      font-size: 24px;
+    }
+    h2 {
+      font-size: 16px;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+  .refusal {
+    font-size: 12px;
+  }
+  /*member*/
+  .member-wrapper {
+    h1 {
+      font-size: 24px;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+  .members {
+    flex-direction: column;
+    align-items: center;
+  }
+  .member {
+    width: 90%;
+    img {
+      width: 150px;
+    }
+  }
+  .introduction {
+    padding: 20px 10px;
+  }
+  /*Q&A*/
+  .qa-heading {
+    @include heading-max1190;
+    h1 {
+      @include heading-max1190-h1;
+    }
+  }
+  /*message*/
+  .message-heading {
+    h1 {
+      font-size: 24px;
+    }
+    h3 {
+      font-size: 14px;
+    }
+    p {
+      font-size: 12px;
+    }
+  }
+  /*contents*/
+  .contents-wrapper {
+    h1 {
+      font-size: 24px;
+    }
+    h3 {
+      font-size: 14px;
+    }
+  }
+  .contents {
+    flex-direction: column;
+    align-items: center;
+  }
+  .list {
+    width: 100%;
+    &:first-child {
+      margin-right: 0;
+    }
+    p {
+      font-size: 16px;
+    }
+    li {
+      font-size: 14px;
+    }
+  }
+  /*lesson*/
+  .lesson-wrapper {
+    padding: 30px 0;
+    h1 {
+      font-size: 24px;
+    }
+  }
+  .lesson-through {
+    width: 90%;
+  }
+  .lessons {
+    display: inline-block;
+    width: 80%;
+  }
+  .lesson-text {
+    h3 {
+      font-size: 14px;
+    }
+    p {
+      font-size: 12px;
+    }
+  }
+  .flow {
+    width: 70%;
+  }
+  /*bangkok*/
+  .bangkok-wrapper {
+    padding: 30px 0 30px 50px;
+    p {
+      font-size: 12px;
+    }
+    li {
+      font-size: 14px;
+    }
+    h2 {
+      font-size: 16px;
+    }
+  }
+  /*yellow*/
+  .yellow-wrapper {
+    padding: 30px;
+    h1 {
+      font-size: 24px;
+    }
+    h4 {
+      font-size: 16px;
+    }
+  }
+  .benefits {
+    flex-direction: column;
+    align-items: center;
+  }
+  .benefits-title {
+    h2 {
+      font-size: 24px;
+    }
+  }
+  .benefit {
+    margin-bottom: 20px;
+    &:last-child {
+      margin: 0;
+    }
+  }
+  /*not-volunteer*/
+  .not-volunteer-wrapper {
+    padding: 30px 0;
+    h1 {
+      font-size: 24px;
+    }
+    h2 {
+      font-size: 16px;
+    }
+  }
+  .not-volunteer-heading {
+    @include heading-max1190;
+  }
+  /*fun*/
+  .fun-wrapper {
+    padding: 30px 0;
+    h1 {
+      font-size: 24px;
+    }
+    h2 {
+      font-size: 16px;
+    }
+  }
+  .fun-area {
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+  }
+  .fun-left {
+    padding: 0;
+    width: 100%;
+    margin-bottom: 30px;
+    img {
+      width: 100%;
+    }
+  }
+  /*form*/
+  .form-wrapper {
+    padding: 30px 0;
+    h1 {
+      font-size: 24px;
+    }
+    h2 {
+      font-size: 14px;
+    }
+  }
+  /*question*/
+  .question-wrapper {
+    padding: 30px;
+    h1 {
+      font-size: 24px;
+    }
+  }
+  .question {
+    a {
+      font-size: 16px;
+    }
+  }
+  .answer {
+    p {
+      font-size: 14px;
+    }
+  }
+  /*footer*/
+  .footer {
+    padding: 30px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+   .brsp {
+    display: block;
+  }
+  .brst {
+    display: none;
+  }
+  .heading {
+    h1 {
+      @include heading-h1-max768;
+    }
+    h2 {
+      @include heading-h2-max768;
+    }
+    &:before {
+      @include heading-before-after-max768;
+    }
+    &:after {
+      @include heading-before-after-max768;
+    }
+  }
+  /*header*/
+  .header-left {
+    margin: 10px 0 0 10px;
+    img {
+      width: 88px;
+      display: block;
+    }
+    p {
+      font-size: 10px;
+    }
+  }
+  .header-right {
+    display: none;
+  }
+  /*top*/
+  .header-in {
+    padding: 0;
+  }
+  .top-area {
+    padding: 100px 0 50px;
+    h2 {
+      font-size: 18px;
+    }
+    p {
+      font-size: 15px;
+    }
+  }
+  .header-right-btn {
+    display: block;
+  }
+  /*contact*/
+  .contact-wrapper {
+    padding: 20px 0;
+    h1 {
+      font-size: 15px;
+    }
+    h2 {
+      margin: 10px 5px;
+      code {
+      font-size: 14px;
+      }
+    }
+    p {
+      font-size: 15px;
+    }
+  }
+  .request-btn {
+    padding: 15px 35px;
+    width: 90%;
+    p {
+      font-size: 20px;
+    }
+  }
+  .btn {
+    font-size: 12px;
+    font-weight: 300;
+  }
+  /*engineer*/
+  .engineer-wrapper {
+    padding: 20px 0 60px;
+    p {
+      font-size: 15px;
+    }
+  }
+  /*engineer-skill-wrapper*/
+  .about-icon {
+    top: -50px;
+  }
+  .circular {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 12px;
+    font-weight: 300;
+  }
+  .engineer-skill-wrapper {
+    padding: 20px 0;
+    h3 {
+      font-size: 15px;
+    }
+  }
+  .skill {
+    width: 100px;
+    img {
+      display: block;
+      height: 30px;
+    }
+    p {
+      font-size: 10px;
+    }
+  }
+  /*step*/
+  .step-wrapper {
+    padding: 20px 0;
+    h1 {
+      font-size: 18px;
+    }
+    h2 {
+      font-size: 13px;
+      margin: 8px 0;
+    }
+  }
+  .step {
+    width: 90%;
+    padding: 10px 20px;
+    h3, p {
+      font-size: 12px;
+    }
+  }
+  /*blue*/
+  .blue-wrapper {
+    padding: 20px 0;
+    p {
+      font-size: 12px;
+    }
+    h3 {
+      font-size: 15px;
+    }
+  }
+  /*learn*/
+  .learn-wrapper {
+    padding: 20px 0;
+    h1 {
+      font-size: 18px;
+    }
+    h2 {
+      font-size: 15px;
+    }
+    p {
+      font-size: 12px;
+    }
+  }
+  .learns {
+    padding: 0 50px;
+  }
+  .learn {
+    width: 33%;
+    img {
+      width: 100%;
+    }
+  }
+  /*merit*/
+  .merit-wrapper {
+    padding: 20px;
+  }
+  .merit {
+    width: 90%;
+    margin: 10px 0;
+    .img {
+      width: 100%;
+      height: 120px;
+    }
+  }
+  .text-contents {
+    width: 90%;
+    h3 {
+    font-size: 15px;
+    margin: 10px 0;
+  }
+    p {
+      font-size: 13px;
+    }
+  }
+  .support {
+    padding: 10px 0 20px;;
+    h1 {
+      font-size: 18px;
+    }
+    h2 {
+      font-size: 14px;
+    }
+    p {
+      font-size: 10px;
+    }
+  }
+  .refusal {
+    margin-top: 20px;
+  }
+  /*member*/
+  .member-wrapper {
+    padding: 20px 0;
+    h1 {
+      font-size: 18px;
+    }
+    p {
+      font-size: 12px;
+    }
+  }
+  .members {
+    width: 100%;
+  }
+  /*Q&A*/
+  .qa-wrapper {
+    padding: 20px 0;
+    &:after {
+      border: 15px solid transparent;
+      border-top-color: $heading-color;
+      margin-left: -15px;
+    }
+}
+  .qa-area {
+    p {
+      width: 70px;
+      line-height: 70px;
+    }
+  }
+  .qa-heading {
+    h1 {
+      @include heading-h1-max768;
+    }
+    &:before{
+      @include heading-before-after-max768;
+    }
+    &:after {
+      @include heading-before-after-max768;
+    }
+  }
+  /*message*/
+  .message-wrapper {
+    padding: 20px 0;
+    h1 {
+      font-size: 18px;
+    }
+    h3 {
+      font-size: 12px;
+    }
+    p {
+      font-size: 12px;
+    }
+  }
+  .message-image {
+    width: 30%;
+    padding-left: 10px;
+  }
+  .message {
+    img {
+      width: 100%;
+    }
+  }
+  .message-area {
+    width: 70%;
+    p {
+      font-size: 18px;
+      .name {
+        font-size: 12px;
+      }
+    }
+  }
+  /*contents*/
+  .contents-wrapper {
+    padding: 20px 0;
+    h1 {
+      font-size: 18px;
+    }
+    h3 {
+      font-size: 12px;
+    }
+  }
+  .contents {
+    width: 95%;
+  }
+  /*lesson*/
+  .lesson-wrapper {
+    padding: 20px 0;
+    h1 {
+      font-size: 18px;
+      margin-bottom: 0;
+    }
+  }
+  .lesson-through {
+    display: none;
+  }
+  .flow {
+    display: none;
+  }
+  .lesson {
+    flex-direction: column;
+    margin-bottom: 10px;
+    padding: 10px;
+    &:last-child {
+      margin: 0;
+    }
+  }
+  .lesson-image {
+    cursor: pointer;
+    &:hover {
+      text-decoration: underline;
+    }
+    img {
+      width: 30px;
+      height: 30px;
+    }
+  }
+  .lesson-image {
+    width: 100%;
+    display: flex;
+    position: relative;
+    img {
+      margin-right: 10px;
+    }
+    a {
+      font-size: 15px;
+      line-height: 30px;
+      &:before {
+        display: block;
+      }
+    }
+  }
+  .lesson-up-tag {
+    position: absolute;
+    top: 6px;
+    right: 0px;
+  }
+  .lesson-text {
+    padding-top: 20px;
+    display: none;
+    width: 100%;
+    h3 {
+      font-size: 12px;
+    }
+  }
+  /*bangkok*/
+  .bangkok-wrapper {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    h1 {
+      text-align: center;
+    }
+    p {
+      font-size: 12px;
+    }
+    li {
+      font-size: 12px;
+    }
+    h2 {
+      font-size: 15px;
+    }
+  }
+  /*yellow*/
+  .yellow-wrapper {
+    padding: 20px 0;
+    h1 {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+    h4 {
+      font-size: 12px;
+    }
+  }
+  .benefits-title {
+    top: -50px;
+    h2 {
+      font-size: 18px;
+    }
+  }
+  .benefits-container {
+    margin: 0 15px;
+    padding: 20px 10px;
+  }
+  .benefit-item {
+    background-color: #f7c23c;
+    border-radius: 0%;
+    width: 100%;
+    height: auto;
+    display: flex;
+    h3 {
+      border-radius: 50%;
+      background-color: #fff;
+      width: 50px;
+      height: 50px;
+      line-height: 50px;
+      font-size: 12px;
+      margin: 0;
+    }
+    p {
+      font-size: 12px;
+      width: 80%;
+      color: #fff;
+      padding: 10px 0 0 10px;;
+      text-align: left;
+    }
+  }
+  .benefit {
+    width: 90%;
+  }
+  .benefit-container {
+    width: 20%;
+  }
+  /*not-volunteer*/
+  .not-volunteer-wrapper {
+    padding: 20px 0;
+    h1 {
+      font-size: 18px;
+    }
+    h2 {
+      font-size: 12px;
+      margin: 0 0 20px;
+      &:last-child {
+        margin: 20px 0 0;
+      }
+    }
+  }
+  .not-volunteer-heading {
+    &:before {
+      @include heading-before-after-max768;
+    }
+    &:after {
+      @include heading-before-after-max768;
+    }
+    h1 {
+      @include heading-h1-max768;
+    }
+  }
+  /*fun*/
+  .fun-wrapper {
+    padding: 20px 0;
+    h1 {
+      font-size: 18px;
+    }
+    h2 {
+      font-size: 15px;
+    }
+  }
+  .fun-right {
+    p {
+      font-size: 14px;
+    }
+  }
+  /*form*/
+  .form-wrapper {
+    padding: 20px 0;
+    h1 {
+      font-size: 18px;
+    }
+    h2 {
+      font-size: 12px;
+    }
+  }
+  .forms {
+    input, textarea {
+      width: 90%;
+    }
+  }
+  /*question*/
+  .question-wrapper {
+    padding: 20px 0;
+    h1 {
+      font-size: 18px;
+    }
+  }
+  .questions {
+    width: 90%;
+    a {
+      font-size: 15px;
+      width: 90%;
+    }
+  }
+  .answer {
+    p {
+      font-size: 12px;
+    }
+  }
+  /*footer*/
+  .footer-wrapper {
+    padding: 20px 0;
+  }
+  /*pagetop*/
+  .pagetop {
+    padding: 13px;
+    bottom: 10px;
+    right: 10px;
+  }
+  .fa-chevron-up {
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,50 @@
+$header: white;
+$heading-color: #ebb94d;
+$back-color: #fef5e0;
+
+@mixin heading {
+  padding: 20px 10px;
+  position: relative;
+  width: 860px;
+  margin: 0 auto;
+}
+@mixin heading-before($color) {
+  border-top: 4px solid $color;
+  border-left: 4px solid $color;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  width: 50px;
+  height: 50px;
+}
+@mixin heading-after($color) {
+  border-bottom: 4px solid $color;
+  border-right: 4px solid $color;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  content: "";
+  width: 50px;
+  height: 50px;
+}
+@mixin heading-max1190 {
+  width: 90%;
+}
+@mixin heading-max1190-h1 {
+  font-size: 24px;
+}
+@mixin heading-max1190-h2 {
+  font-size: 16px;
+}
+@mixin heading-before-after-max768 {
+  width: 30px;
+  height: 30px;
+}
+@mixin heading-h1-max768 {
+  font-size: 18px;
+}
+@mixin heading-h2-max768 {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
